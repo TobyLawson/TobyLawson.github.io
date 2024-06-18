@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Toby Lawson</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<!--<li><a href="aboutme.html">About</a></li>-->
+						<li><a href="index.html#one" class="active">Projects</a></li>
+						<li><a href="index.html#two">Experience</a></li>
+						<li><a href="index.html#three">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Lost Ice: Procedural Game Maps</h1>
+							<span class="image fit"><img src="images/LostIceBanner.png" alt="" /></span>
+							<p><i><b>Use procedural generation to create random and interesting maps for a video game.</b><br>Solo Programmer</i></p>
+							<!--
+							<p>One Line Purpose/ Brief<br>Solo Creator/ Developer/ Analyst <br>Results</p>
+							<ul>
+								<li>One Line Purpose/ Brief</li>
+								<li>Solo Creator/ Developer/ Analyst</li>
+								<li>Results</li>
+							</ul>
+							-->
+							<h2>Concept</h2>
+							<p>I envisioned a fantasy adventure game where a wizard explores a labyrinthine tower: navigating challenging paths, solving puzzles and evading enemies. Starting at the ground floor the player character, the wizard, would make their way up the tower, progressing through randomly generated maze-like floors, ensuring each playthrough would offer a unique experience.</p>
+							<h2>Inspiration</h2>
+							<p>I was inspired by a classic puzzle game on the Nintendo Entertainment System from my childhood called ‘Solstice,’ in which the player navigates a complex and expansive castle. I reimagined the castle as a tower with an emphasis on creating literal mazes for each floor. I opted for an isometric perspective to enhance the visual complexity and nostalgic feel of the game.</p>
+							<h2>Creation</h2>
+							<p>I decided to create my randomised maps using the Blender 3D computer graphics software, writing the code in Python. The procedural generation algorithm I crafted was designed to create diverse and intricate maps for each tower floor of the game world.</p>
+							<p>Key elements included:</p>
+							<ul>
+								<li><b>Randomized Layouts</b>:Each floor’s layout, including walls, doorways, and room configurations, was generated to form complex mazes.</li>
+								<li><b>Environmental Details</b>: Furniture, decorations, and lighting were randomly placed to enhance the immersive atmosphere.</li>
+								<li><b>Interactive Elements</b>: Enemies, puzzles, and teleporters were dynamically positioned to ensure varied gameplay.</li>
+							</ul>
+							<p>The maps were constructed using a grid system to ensure seamless alignment of all elements, preventing visual glitches such as clipping.</p>
+							<h2>Visual Showcase</h2>
+							<p>Below are a series of images showing my code in action and the final results.</p>
+							<span class="image fit"><img src="images/LostIce1.png" alt="" /><p><i>Testing the algorithm.</i></p></span>
+							<span class="image fit"><img src="images/LostIce2.png" alt="" /><p><i>Map produced with the code without full lighting showing.</i></p></span>
+							<span class="image fit"><img src="images/Lostice3.jpg" alt="" /><p><i>Coding and testing how room elements fit together.</i></p></span>
+							<span class="image fit"><img src="images/LostIce4.jpg" alt="" /><p><i>Concept for a title screen for the game with randomised elements.</i></p></span>
+							<p><b>Here are three example maps that were generated with the code.</b></p>
+							<span class="image fit"><img src="images/LostIceMap1.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/LostIceMap2.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/LostIceMap3.jpg" alt="" /></span>
+							<p><b>Some close up screenshots of how different elements of the randomised maps came together.</b></p>
+							<div class="row gtr-uniform">
+								<div class="col-4"><span class="image fit"><img src="images/LostIceA1.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceA2.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceA3.jpg" alt="" /></span></div>
+
+								<div class="col-4"><span class="image fit"><img src="images/LostIceB1.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceB2.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceB3.jpg" alt="" /></span></div>
+
+								<div class="col-4"><span class="image fit"><img src="images/LostIceC1.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceC2.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LostIceC3.jpg" alt="" /></span></div>
+							</div>
+							<p></p>
+							<h2>Conclusions</h2>
+							<p>The procedural generation code reliably produced unique and convincing maps, with all elements harmoniously integrated to create a logical and engaging structure. The maps demonstrated the potential for endless variation, greatly enhancing replayability.</p>
+							<h2>Challenges</h2>
+							<ul>
+								<li><b>Stairway Alignment</b>: Aligning entry and exit points for stairs proved challenging. A potential solution involves fixing the stairway entry point at a consistent location on each floor. This would require some testing. </li>
+								<li><b>Performance Issues</b>: Multiple lighting sources sometimes caused crashes or significant slowdowns in Blender. This issue needs further optimization.</li>
+							</ul>
+							<h2>Learnings</h2>
+							<ul>
+								<li><b>Reflection</b>: I am highly satisfied with the diverse and interesting maps generated. Testing revealed that the maps were consistently intriguing and enjoyable, even from a gamer’s perspective. The individual parts came together in various random ways yet appeared curated and logical in structure.</li>
+								<li><b>Future Direction</b>: I plan to extend this project by implementing the generated maps in Unity, making the game playable and further refining the procedural generation process to enhance game dynamics and player engagement.</li>
+							</ul>
+							
+							<!-- <p><i>Note (if needed).</i></p> -->
+							
+							<!-- BUTTONS -->
+							<!-- DOWNLOAD PROJECT BUTTON 
+							<p>
+								<a href="#" target="_blank" class="button icon solid fa-download">DOWNLOAD PROJECT</a>
+							</p>
+							-->
+							<!-- CONTACT ICONS AND BACK TO TOP BUTTON
+							<p>
+								<a href="mailto:tobymlawson@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/toby-lawson-b57b8266/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>&nbsp;&nbsp;<a href="https://github.com/TobyLawson" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a>
+								<span class="image right"><a href="#" class="button small">BACK TO TOP</a></span>
+							</p>
+							-->
+							<!-- PREV/NEXT PROJECT BUTTONS 
+							<p>
+								<span class="image left"><a href="#" class="button small">PREV PROJECT</a></span>
+								<span class="image right"><a href="#" class="button small">NEXT PROJECT</a></span>
+							</p>
+							-->
+
+							<!-- THREE BUTTONS ALONG THE BOTTON -->
+							<p>
+								<!--<a href="#" target="_blank" class="button icon solid fa-download">DOWNLOAD PROJECT</a>-->
+								<span class="image right"><a href="mailto:tobymlawson@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/toby-lawson-b57b8266/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>&nbsp;&nbsp;<a href="https://github.com/TobyLawson" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></span>
+							</p>
+							<ul class="actions fit small">
+								<li><a href="gameplan.html" class="button fit small">PREV PROJECT</a></li>
+								<li><a href="#" class="button fit small">BACK TO TOP</a></li>
+								<li><a href="gametofilm.html" class="button fit small">NEXT PROJECT</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
